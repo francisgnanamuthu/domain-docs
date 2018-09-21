@@ -1,0 +1,29 @@
+{
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "edit-link",
+    "expandable-chapters",
+    "page-toc",
+    "-sharing",
+    "theme-api"
+  ],
+  "pluginsConfig": {
+    "theme-api": {
+      "theme": "dark"
+    },
+    "edit-link": {
+      "base": "https://github.com/franciscecil/domain-docs/blob/master/",
+      "label": "Edit This Page"
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "page-toc": {
+      "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3",
+      "showByDefault": false
+    }
+  },
+  "title": "IIPM-BPM Domain guidebook"
+}

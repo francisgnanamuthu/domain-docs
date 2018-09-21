@@ -1,0 +1,35 @@
+{
+  "name": "domain-docs",
+  "version": "1.0.0",
+  "description": "IIPM-BPM Domain guidebook",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook": "3.2.3",
+    "gitbook-cli": "2.3.2",
+    "gitbook-plugin-edit-link": "2.0.2",
+    "gitbook-plugin-expandable-chapters": "0.2.0",
+    "gitbook-plugin-page-toc": "1.1.0"
+  },
+
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node_modules/.bin/gitbook install",
+    "build": "node_modules/.bin/gitbook build",
+    "start": "node ./node_modules/gitbook-cli/bin/gitbook --no-watch --no-live --port 8080 serve",
+    "local": "npm run install && node ./node_modules/gitbook-cli/bin/gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscecil/domain-docs.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/franciscecil/domain-docs/blob/master/#readme",
+  "engines": {
+    "node": "^8.9.0"
+  }
+}
