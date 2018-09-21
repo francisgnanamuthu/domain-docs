@@ -1,0 +1,11 @@
+.idea
+/_book/
+node_modules
+npm-debug.log
+.gitbook
+*.iml
+
+/.settings/
+/.project
+.DS_Store
+
