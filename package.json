@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "node_modules/.bin/gitbook install",
     "build": "node_modules/.bin/gitbook build",
-    "start": "node ./node_modules/gitbook-cli/bin/gitbook --no-watch --no-live --port 8080 serve",
+    "start": "node ./node_modules/gitbook-cli/bin/gitbook --no-watch --no-live --port 80 serve",
     "local": "npm run install && node ./node_modules/gitbook-cli/bin/gitbook serve"
   },
   "repository": {
