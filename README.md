@@ -1,8 +1,5 @@
 <br>
-# Welcome to IIPM BPM Digital Platform - One Stop to domain Knowledge
-
-*This site provides documentation to Insurance Domain Knowledge.* 
-
+# Welcome to IPM IBM BPM Digital Platform - One Stop to domain Knowledge
 
 
 * [Insurance](./insurance/Insurance.md)

@@ -1,7 +1,7 @@
 {
   "name": "domain-docs",
   "version": "1.0.0",
-  "description": "IIPM-BPM Domain guidebook",
+  "description": "IPM IBM BPM Domain guidebook",
   "main": "index.js",
   "dependencies": {
     "gitbook": "3.2.3",
